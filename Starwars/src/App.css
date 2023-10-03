@@ -1,0 +1,30 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #242424;
+  box-shadow: rgba(0, 0, 10, 0.161);
+  /* padding-top: 1rem; */
+  /* padding-bottom: 2rem; */
+  text-align: center;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  width: 100%;
+}
