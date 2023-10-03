@@ -67,7 +67,7 @@ export const CharacterDetailsPage = () => {
 
           <button>
             {" "}
-            <Link to="/">BACK</Link>{" "}
+            <Link to="/characters">BACK</Link>{" "}
           </button>
         </div>
       </>
