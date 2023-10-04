@@ -18,7 +18,7 @@ export const MainPage = () => {
 
   const modalStyle = {
     content: {
-      maxWidth: "400px", // Ændr efter dine præferencer
+      maxWidth: "400px",
       margin: "auto",
       padding: "20px",
       background: "#fff",
@@ -65,13 +65,13 @@ export const MainPage = () => {
           isOpen={!!selectedFilm}
           onRequestClose={closeModal}
           contentLabel="Film Data Modal"
-          style={modalStyle} // Anvend konstanten til styling
+          style={modalStyle}
         >
           <h2>{selectedFilm.title}</h2>
           <p>Episode: {selectedFilm.episodeID}</p>
           <p>Director: {selectedFilm.director}</p>
           <p>Producer: {selectedFilm.producer}</p>
-          {/* Tilføj flere oplysninger efter behov */}
+          
           <button onClick={closeModal}>Luk Modal</button>
         </Modal>
       )}
